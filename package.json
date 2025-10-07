@@ -1,6 +1,6 @@
 {
   "name": "@wowjob/css",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "The foundational CSS styles, resets, and design tokens for the WowJob.ai ecosystem. Provides a consistent look and feel across all WowJob web properties.",
   "author": "Marian Zburlea (https://github.com/marianzburlea)",
   "license": "MIT",
