@@ -1,0 +1,59 @@
+{
+  "name": "@wowjob/css",
+  "version": "0.0.1",
+  "description": "The foundational CSS styles, resets, and design tokens for the WowJob.ai ecosystem. Provides a consistent look and feel across all WowJob web properties.",
+  "author": "Marian Zburlea (https://github.com/marianzburlea)",
+  "license": "MIT",
+  "homepage": "https://github.com/wowjob/wowjob-css#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wowjob/wowjob-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wowjob/wowjob-css/issues"
+  },
+  "keywords": [
+    "wowjob",
+    "css",
+    "design-system",
+    "design-tokens",
+    "utility-classes",
+    "css-reset",
+    "astro",
+    "ui-kit"
+  ],
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./reset.css": "./dist/reset.css",
+    "./all.css": "./dist/all.css",
+    "./all.min.css": "./dist/all.min.css"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build:types": "tsc --project tsconfig.json",
+    "build:code": "bun run build-css.js",
+    "build": "bun run clean && bun run build:code && bun run build:types"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@types/bun": "^1.2.5",
+    "semantic-release": "^24.2.9",
+    "typescript": "^5.9.3"
+  }
+}

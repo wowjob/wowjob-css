@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Build Options */
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "declaration": true, // Generate .d.ts files for type support
+    "emitDeclarationOnly": true, // IMPORTANT: Only generate types, Bun will handle JS
+    "sourceMap": false,
+
+    /* Interoperability */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* Project Structure */
+    "rootDir": "src"
+  },
+  "include": ["src"], // Tells TypeScript to only look at files in the src folder
+  "exclude": ["node_modules", "dist"]
+}
