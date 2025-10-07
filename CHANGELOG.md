@@ -1,3 +1,10 @@
+## [0.1.1](https://github.com/wowjob/wowjob-css/compare/v0.1.0...v0.1.1) (2025-10-07)
+
+
+### Bug Fixes
+
+* nasty semantic release ([6c3079e](https://github.com/wowjob/wowjob-css/commit/6c3079ea6bdfe8302a1a74ef7fa325efa6c74563))
+
 # 1.0.0 (2025-10-07)
 
 
