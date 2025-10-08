@@ -10,15 +10,14 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     permissions:
-      contents: write # to push commits and tags
-      issues: write # to comment on issues
-      pull-requests: write # to comment on pull requests
+      contents: write
+      issues: write
+      pull-requests: write
 
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          # This is needed for semantic-release to analyze the full commit history
           fetch-depth: 0
 
       - name: Setup Bun
@@ -33,5 +32,6 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # This token should be your secret from npmjs.com
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
