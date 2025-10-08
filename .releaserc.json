@@ -18,14 +18,15 @@
     [
       "@semantic-release/npm",
       {
-        "npmPublish": true
+        "npmPublish": true,
+        "registry": "https://registry.npmjs.org/"
       }
     ],
     [
       "@semantic-release/npm",
       {
         "npmPublish": true,
-        "registry": "https://npm.pkg.github.com"
+        "registry": "https://npm.pkg.github.com/"
       }
     ],
     [
