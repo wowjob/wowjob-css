@@ -1,3 +1,10 @@
+## [0.3.1](https://github.com/wowjob/wowjob-css/compare/v0.3.0...v0.3.1) (2025-10-08)
+
+
+### Bug Fixes
+
+* one npm registry only ([2d50817](https://github.com/wowjob/wowjob-css/commit/2d50817b0804a30136687be4104c95b346ca16d4))
+
 ## [0.2.3](https://github.com/wowjob/wowjob-css/compare/v0.2.2...v0.2.3) (2025-10-08)
 
 
