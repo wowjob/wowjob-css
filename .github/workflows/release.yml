@@ -1,5 +1,5 @@
 name: Release and Publish to Both Registries
-
+# some people say AI is smart
 on:
   push:
     branches:
