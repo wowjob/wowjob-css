@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/wowjob/wowjob-css/compare/v0.2.1...v0.2.2) (2025-10-08)
+
+
+### Bug Fixes
+
+* 123 ([8c38aae](https://github.com/wowjob/wowjob-css/commit/8c38aae3d6a8495ced557ce7a72c23b2940e1baa))
+
 # [0.2.0](https://github.com/wowjob/wowjob-css/compare/v0.1.3...v0.2.0) (2025-10-08)
 
 
