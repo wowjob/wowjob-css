@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/wowjob/wowjob-css/compare/v0.1.3...v0.2.0) (2025-10-08)
+
+
+### Features
+
+* support both tokens, github and npm ([f20281b](https://github.com/wowjob/wowjob-css/commit/f20281b72a57a4d708f85bf65d824b444edba3ec))
+
 ## [0.1.3](https://github.com/wowjob/wowjob-css/compare/v0.1.2...v0.1.3) (2025-10-08)
 
 
