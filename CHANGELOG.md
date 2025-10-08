@@ -1,3 +1,10 @@
+## [0.2.3](https://github.com/wowjob/wowjob-css/compare/v0.2.2...v0.2.3) (2025-10-08)
+
+
+### Bug Fixes
+
+* **ci:** correcting dual-publish configuration ([7b667b4](https://github.com/wowjob/wowjob-css/commit/7b667b44fc4b400171b34e7f577d4c662ec021d5))
+
 ## [0.2.2](https://github.com/wowjob/wowjob-css/compare/v0.2.1...v0.2.2) (2025-10-08)
 
 
